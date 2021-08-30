@@ -9,3 +9,15 @@ It is a environment where we can write the java code, execute .Its a platform.
 JVM -> Java Virtual Machine
 It checks the errors on the program. 
 
+
+For floating value->
+
+float a= 3.45f ->f is needed 
+
+
+Abstract in Java ->  Basically override the function.
+Create a abstract class 
+create a abstract function
+
+create a child which extends the abstract class
+ now override the abstract function
