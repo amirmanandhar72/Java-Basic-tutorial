@@ -15,9 +15,36 @@ For floating value->
 float a= 3.45f ->f is needed 
 
 
-Abstract in Java ->  Basically override the function.
-Create a abstract class 
-create a abstract function
+Abstract Class:
+It’s a abstract class in which abstract methods are defined . This class gets inherited to its child classes and can override the methods.
+For eg We have two classes .
 
-create a child which extends the abstract class
- now override the abstract function
+1st class 
+Public abstract class Student {
+	Public abstract void name();
+	Public abstract void age();
+}
+
+Now a normal class
+Overrides the function
+Public class student1 extends Student{
+	Public void name(){
+	System.out.println(“My name is Amir”);
+}
+
+Public class student2{
+	Public void name(){
+	System.out.println(“My name is Ajay”);
+}
+Simply make the object of student 1 and 2 and use it..
+
+
+Interface:
+Its same as the abstract class.Its just a template for any classes to use the function.
+
+Access Specifiers:
+Public: If any variable ,classes are public then all other classes can access the variable .No any restriction..
+Private: if any of the class is private or variables are private , then it cant be access by any of the classes.
+Protected: only inherited child and the class of same package can access the protected classes.
+
+ 
