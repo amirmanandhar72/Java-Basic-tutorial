@@ -47,4 +47,4 @@ Public: If any variable ,classes are public then all other classes can access th
 Private: if any of the class is private or variables are private , then it cant be access by any of the classes.
 Protected: only inherited child and the class of same package can access the protected classes.
 
- 
+This is the end of the Java Basics tutorial.... 
